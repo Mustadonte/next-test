@@ -1,9 +1,11 @@
-import Image from 'next/image'
+'use client';
+import CookieConsent from './Components/Cookies';
 
 export default function Home() {
   return (
-
-    <div>Welcome to Next Js World!</div>
-
-  )
+    <>
+      <div>Welcome to Next Js World!</div>
+      <CookieConsent />
+    </>
+  );
 }
