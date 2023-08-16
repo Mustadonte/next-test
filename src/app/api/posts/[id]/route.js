@@ -4,7 +4,6 @@ import { redirect } from 'next/navigation';
 
 export const DELETE = (req, { params }) => {
   const id = params.id;
-  console.log(params);
 
   return NextResponse.json({ message: `${id} is deleted` });
 };
